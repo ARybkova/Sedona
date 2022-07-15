@@ -1,0 +1,327 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 1200px;
+  color: #333333;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.page__header {
+  color: #000000;
+}
+
+.navigation__link {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.hero__container {
+  color: #ffffff;
+  background-color: #82b3d3;
+  background-image: url("../images/hero_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.hero__description {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.hero__text {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
+
+.benefits__item {
+  text-align: center;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.benefits__item--town {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.benefits__item--bridge {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.benefits__item--area .benefits__title {
+  color: #000000;
+}
+
+.benefits__item--road .benefits__title {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.benefits__item--tourists .benefits__title {
+  color: #000000;
+}
+
+.benefits__title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.benefits__number {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.benefits__description {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.benefits__details-item {
+  text-align: center;
+  color: #000000;
+}
+
+.benefits__details-item--house {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.benefits__details-item--burger {
+  background-color: #ffffff;
+}
+
+.benefits__details-item--gift {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.benefits__details-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.benefits__details-description {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.search__title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.search__description {
+  text-align: center;
+  color: #333333;
+}
+
+.subscription {
+  text-align: center;
+  background-color: #82b3d3;
+  background-image: url("../images/subscription_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.subscription__title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.subscription__description {
+  color: #ffffff;
+}
+
+.contacts__link {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+/*catalog*/
+
+.page__inner-container {
+  color: #ffffff;
+  background-color: #82b3d3;
+  background-image: url("../images/filters_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.page__inner-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
+.breadcrumbs__link {
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.filters__group {
+  border: none;
+}
+
+.filters__group-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.control__label {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.sorting__description {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.sorting__select {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.card__content-link {
+  text-decoration: none;
+}
+
+.card__content-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.card__content-description {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.card__content-price {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.card__content-rating {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.pagination__item {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #82b3d3;
+  border: 1px solid #82b3d3;
+  border-radius: 4px;
+}
+
+.pagination__item--current {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+}
+
+.pagination__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.pagination__link--current {
+  color: #000000;
+}
+
+.pagination__show-descriptin {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.pagination__show-select {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.catalog__subscription {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.catalog__subscription-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.catalog__subscription-description {
+  /* color: #333333; */
+}

@@ -255,8 +255,8 @@
 
           <div class="catalog__pagination pagination">
             <ul class="pagination__list">
-              <li class="pagination__item">
-                <a class="pagination__link" href="#">1</a>
+              <li class="pagination__item pagination__item--current">
+                <a class="pagination__link pagination__link--current" href="#">1</a>
               </li>
               <li class="pagination__item">
                 <a class="pagination__link" href="#">2</a>
@@ -286,15 +286,16 @@
           </div>
         </div>
 
-        <section class="subscription subscription--catalog">
-          <h2 class="subscription__title">Подпишитесь на рассылку</h2>
-          <p class="subscription__description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-          <form class="subscription__form" action="https://echo.htmlacademy.ru/" method="post">
+        <section class="catalog__subscription">
+          <h2 class="catalog__subscription-title">Подпишитесь на рассылку</h2>
+          <p class="catalog__subscription-description">Только полезная информация и никакого спама, честное
+            бойскаутское!</p>
+          <form class="catalog__subscription-form" action="https://echo.htmlacademy.ru/" method="post">
             <label class="visually-hidden" for="subscription__email">
-              <input class="subscription__email" type="email" id="subscription__email" placeholder="Ваш e-mail"
+              <input class="catalog__subscription-email" type="email" id="subscription__email" placeholder="Ваш e-mail"
                 name="subscription__email" required>
             </label>
-            <button class="subscription__btn btn btn__light" type="submit">Подписаться</button>
+            <button class="catalog__subscription-btn btn btn__light" type="submit">Подписаться</button>
           </form>
         </section>
 
